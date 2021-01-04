@@ -685,10 +685,15 @@ body.nav--active #main-navigation * {
 }
 
 .site-popup .info-block-wrap *[class*='col-'] {
-  padding: 0px !important;
   max-width: 100%;
   flex: none;
   width: auto;
+}
+
+@media screen (min-width: 767px) {
+  .site-popup .info-block-wrap *[class*='col-'] {
+    padding: 0px !important;
+  }
 }
 
 /* ==========================================================================
